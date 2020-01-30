@@ -12,3 +12,4 @@ import {ProductListComponent} from './product-list.component';
   exports: [ProductListComponent]
 })
 export class ProductListModule { }
+// Не всегда нужно для каждого компонента создавать свой собственный модуль

@@ -10,6 +10,7 @@ export class Product {
     public isAvailable: boolean,
     public type: string,
   ) {
+    // дефолтные значения можно задать сразу для параметров
     this.name = name || null;
     this.description = description || null;
     this.price = price || 0;

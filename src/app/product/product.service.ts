@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 
 import { Product, Category } from './product.model';
-
+// Если этот сервис находится тут, то логично его регистрировать и в product.module.ts
+// Но он у вас зарегистрирован в двух модулях
 @Injectable()
 export class ProductService {
 
